@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <style>
+        .navbar {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+        
+
+        }
+
+        .navbar ul {
+            display: flex;
+        }
+
+        .navbar li {
+            list-style: none;
+            margin: 5px 20px;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: red
+        }
+
+        .search {
+            color: white;
+            margin-left: 50%;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"> 
+        <img src="picture/gym.webp" alt="Accenture Logo"> 
+             </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact  </a></li>
+        </ul>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="Search this website">
+        </div>
+    </nav>
+
+    <section id="hero" id="home">
+        <div class="hero-container">
+            <h1>Welcome to Fitness World</h1>
+            <p>Your journey to a healthier life starts here</p>
+            <a href="#membership" class="btn">Join Now</a>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="services-container" id="service">
+        <h1>OUR SERVICES</h1>
+        <div id="services">
+            <div class="box">
+                <img src="picture/1.jpg" alt="">
+                <h2>People Centric</h2>
+                <p class="center">Prioritising the happiness and wellbeing of our team members, customers, and stakeholders before all else.</p>
+            </div>
+            <div class="box">
+                <img src="picture/2.jpg" alt="">
+                <h2>Nimbagility</h2>
+                <p class="center">Combining nimble actions with agile thinking to approach challenges, fostering resilience through creative and efficient problem-solving.</p>
+            </div>
+            <div class="box">
+                <img src="picture/3.jpg" alt="">
+                <h2>Continuous Improvement</h2>
+                <p class="center">Constantly seeking new ways to grow, learn, and innovate  embracing and leading change as a catalyst for progress.</p>
+            </div>
+            
+        </div>
+    </section> 
+
+    <section id="culture" id="culture">
+        <div class="container">
+            <h2>OUR CULTURE</h2>
+            <p>We know that building a positive culture is incredibly important. We believe in encouraging, supporting, challenging, learning and growing to be the best! Our flexible working solutions, gym rebates and educational opportunities create a positive work/life balance for all our employees.
+
+                We believe in giving back and offering time, money and products to volunteer services and community organisations. We are committed to improving individuals' health, fitness, and well-being by supporting global and local charities, local sports teams, and events.</p>
+                <a href="#membership" class="btn">GET IN TOUCH</a>
+           
+        </div>
+    </section>
+
+
+    <section id="about" id="about us">
+        <div class="lucky">
+            <h1>ABOUT</h1>
+            <div id="lucky">
+                <h4>At Gym and Fitness, we believe that fitness and wellbeing are the cornerstones of a full and vibrant life. Established in 2002, we began our journey as a family-owned business dedicated to providing exceptional gym equipment at affordable prices. But, we dreamed bigger than just being an ordinary fitness equipment supplier; we aspired to lead the industry.
+                    
+                    Two decades later, we are proud to have transformed Gym and Fitness into one of Australia's premier online retailers of fitness equipment. We've moved beyond just supplying gear we've become advocates for fitness, wellbeing and life enrichment. Our commitment to excellence is reflected not only in the quality equipment we provide but also in the lives we've </h4>
+                    <img src="picture/images.jpeg" alt="content-image">
+                </div>
+        </div>
+    </section>
+
+ <section id="contact" id="contact us">
+        <h1 class="h-primary center">CONTACT US</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fitness World. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
